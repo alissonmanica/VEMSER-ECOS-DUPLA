@@ -153,6 +153,7 @@
 }
 
 .container {
+    display: flex;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -248,4 +249,17 @@ ul li a {
 
 .fa-comments, .fa-eye {
     margin-right: 3px;
+}
+
+/* SISTEMAS */
+
+.sistemas {
+border: 1px solid black;
+}
+
+/* ANIVERSARIOS */
+
+.aniversarios {
+border: 1px solid black;
+
 }
