@@ -1,0 +1,128 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: url(https://ecos.dbccompany.com.br/assets/patternECOStransparente.png), linear-gradient(to bottom right, #295ba7, #78b454);
+    max-width: 100%;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header > nav > ul > li > span {
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 10px;
+}
+
+header > nav > ul > li > a {
+    margin-left: 15px;
+}
+
+header  > nav > a > img { 
+    max-width: 100%;
+    width: 105px;
+    height: 36px;
+    padding: 5px;
+}
+
+.foto_perfil{
+    position: absolute;
+    top: 17px;
+    left: 1350px;
+}
+
+header  >nav > ul > li > img {
+    max-width: 100%;
+    width: 35px;
+    height: 35px;
+    border-radius: 360px;
+    margin-left: 25px;
+}
+
+header i {
+    color: white; 
+}
+
+header input {
+    height: 30px;
+    width: 400px;
+    border: none;
+    margin-left: 20px;
+    background-color: #356b6578 !important;
+    color: white;
+}
+
+header input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+header ::placeholder {
+    color: white;
+    font-size: 15px;
+    padding: 10px;    
+}
+
+.fa-magnifying-glass {
+    color: white;
+    position: absolute;
+    top: 28px;
+    left: 625px;
+}
+
+.fa-bell {
+    margin-right: 80px;
+}
+
+/* @media screen and (max-width: 600px) {
+    input {
+        display: none;
+    }
+
+
+    .fa-bell {
+        margin-right: 60px;
+        justify-content: flex-end;
+    }
+    .fa-angle-down {
+        justify-content: flex-end;
+    }
+
+    header > nav > ul > li > span {
+        display: none;
+    }
+
+    .foto_perfil{
+        display: none;
+    }
+
+    header > nav > a {
+        top: 10px;
+        left: 150px;
+        margin-left: 30px;
+        
+    }
+    .fa-bars {
+        position: absolute;
+        top: 35px;
+        left: 10px;
+    }
+
+} */
