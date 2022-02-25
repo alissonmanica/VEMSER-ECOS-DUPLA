@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0 10px;
     background: url(https://ecos.dbccompany.com.br/assets/patternECOStransparente.png), linear-gradient(to bottom right, #295ba7, #78b454);
 }
 
@@ -72,7 +72,6 @@ header input {
     height: 30px;
     width: 400px;
     border: none;
-    margin-left: 20px;
     background-color: #356b6578 !important;
     color: white;
 }
@@ -90,11 +89,11 @@ header ::placeholder {
 .fa-magnifying-glass {
     color: white;
     position: absolute;
-    top: 28px;
+    top: 18px;
     left: 625px;
 }
 
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 800px) {
     input {
         display: none;
     }
@@ -120,6 +119,20 @@ header ::placeholder {
         position: absolute;
         top: 35px;
         left: 10px;
+    }
+
+    .fa-magnifying-glass {
+        color: white;
+        position: absolute;
+        top: 18px;
+        left: 200px;
+        margin-right: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
 }
@@ -236,48 +249,54 @@ ul li a {
 
 .sistemas {
     border: 0px solid black;
+    border-radius: 4px;
     background-color: #f8f9fa;
     -webkit-box-shadow: 0px 1px 8px -2px rgba(51, 50, 50, 0.39);
     -moz-box-shadow: 0px 1px 8px -2px rgba(61, 61, 61, 0.39);
     box-shadow: 0px 1px 8px -2px rgba(146, 146, 146, 0.39);
-    width: 435px;
-    padding-left: 15px;
+    width: 450px;
+    margin: 0 auto;
 }
 
-.sistemas > div > h5 {
+.sistemas > h5 {
     display: block;
-    /* width: 99.8%; */
     border-bottom: 1px solid #d9d9d9cb;
     font-size: 12px;
     padding: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     color: rgb(56, 55, 55);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.sistemas nav {
+    padding: 0 20px;
+    padding-bottom: 10px;
+}
+
 .sistemas > nav > ul {
-    padding: 1px;
+    padding: 1px 0 1px 3px;
     margin: 2px;
     display: block;
 }
 
 .sistemas > nav > ul > li {
-    /* display: flex; */
-    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
     display: inline-block;
     width: 90px;
     height: 60px;
-    /* max-width: 100%;     */
-    -webkit-box-shadow: 6px 7px 12px 2px rgba(204,204,204,0.76); 
-    box-shadow: 6px 7px 12px 2px rgba(204,204,204,0.76);
+    max-width: 100%;    
+    -webkit-box-shadow: 0px 1px 8px -2px rgba(51, 50, 50, 0.39);
+    -moz-box-shadow: 0px 1px 8px -2px rgba(61, 61, 61, 0.39);
+    box-shadow: 0px 1px 8px -2px rgba(146, 146, 146, 0.39);;
 }
 .sistemas > nav > ul > li >i {
     display: flex;
     justify-content: center;   
-    padding: 10px;
+    padding: 10px 10px 5px 10px;
     color: yellowgreen;
 } 
 .sistemas > nav > ul > li > a {
@@ -324,6 +343,7 @@ ul li a {
     display: flex;
     border-bottom: 1px solid #d9d9d9cb;
     width: 100%;
+    padding-left: 15px;
 }
 
 .aniver-imagem > img {
