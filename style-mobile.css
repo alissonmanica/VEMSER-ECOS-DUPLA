@@ -1,0 +1,29 @@
+.barra-search {
+    display: none;
+}
+.fa-bell {
+    justify-content: flex-end;
+}
+.fa-angle-down {
+    justify-content: flex-end;
+}
+
+.fa-magnifying-glass {
+    display: flex;
+    padding: 200px;
+    color: red;
+}
+
+header > nav > ul > li > span {
+    display: none;
+}
+
+header > nav > a {
+    max-width: 100%;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
