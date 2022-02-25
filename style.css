@@ -52,6 +52,13 @@ header > div > a > i{
     margin-left: 30px;
 }
 
+header > nav > ul > li:first-child:hover{
+    cursor: pointer;
+    background-color:black;
+    opacity: 0.3;
+    padding: 10px 0px;
+}
+
 .fa-angle-down {
     margin-left: 3px;
 }
@@ -65,7 +72,7 @@ header > nav > ul > li > img {
 }
 
 header i {
-    color: white; 
+    color: white!important; 
 }
 
 header input {
@@ -93,49 +100,7 @@ header ::placeholder {
     left: 625px;
 }
 
- @media screen and (max-width: 800px) {
-    input {
-        display: none;
-    }
-    .fa-bell {
-        margin-right: 0px;
-        justify-content: flex-end;
-    }
-    .fa-angle-down {
-        justify-content: flex-end;
-    }
-
-    header > nav > ul > li > span {
-        display: none;
-    }
-
-    header > nav > a {
-        top: 10px;
-        left: 150px;
-        margin-left: 30px;
-        
-    }
-    .fa-bars {
-        position: absolute;
-        top: 35px;
-        left: 10px;
-    }
-
-    .fa-magnifying-glass {
-        color: white;
-        position: absolute;
-        top: 18px;
-        left: 200px;
-        margin-right: 0;
-    }
-
-    .container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-}
+ 
 .container {
     display: flex;
     margin: 0 auto;
@@ -291,23 +256,24 @@ ul li a {
     max-width: 100%;    
     -webkit-box-shadow: 0px 1px 8px -2px rgba(51, 50, 50, 0.39);
     -moz-box-shadow: 0px 1px 8px -2px rgba(61, 61, 61, 0.39);
-    box-shadow: 0px 1px 8px -2px rgba(146, 146, 146, 0.39);;
+    box-shadow: 0px 1px 8px -2px rgba(146, 146, 146, 0.39);
 }
 .sistemas > nav > ul > li >i {
     display: flex;
     justify-content: center;   
     padding: 10px 10px 5px 10px;
-    color: yellowgreen;
+    color:#33A76F ; 
+    
 } 
 .sistemas > nav > ul > li > a {
     display: flex;
     justify-content: center;   
     font-size: 10px;
-    color: yellowgreen;
+    color: #33A76F; 
     font-weight: bolder;;
 }
 
-.sistemas > nav > ul > li:hover {
+.sistemas  nav  ul  li:hover {
     background:  linear-gradient(to bottom right, #295ba7, #78b454);
 }
 
