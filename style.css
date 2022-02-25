@@ -330,7 +330,7 @@ ul li a {
 
 .aniversarios > h5 {
     display: block;
-    width: 97.8%;
+    width: 97%;
     border-bottom: 1px solid #d9d9d9cb;
     font-size: 12px;
     padding: 4px 0 15px 15px;
@@ -342,7 +342,7 @@ ul li a {
 .container-aniver {
     display: flex;
     border-bottom: 1px solid #d9d9d9cb;
-    width: 100%;
+    width: 97%;
     padding-left: 15px;
 }
 
